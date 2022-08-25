@@ -53,7 +53,7 @@ The overall approach consists of the following four stages:
 1. Obtain the list of domain-based namespaces that are hosted on the server. To do it, use one of the following methods:
 
     ```powershell
-    Get-DfsnRoot - ComputerName ServerName |Where type -NotMatch "Standalone"
+    Get-DfsnRoot -ComputerName ServerName |Where type -NotMatch "Standalone"
     ```
 
     ```powershell
